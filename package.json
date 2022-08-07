@@ -1,0 +1,23 @@
+{
+  "name": "clase33-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabrizio-Turdo/heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabrizio-Turdo/heroku/issues"
+  },
+  "homepage": "https://github.com/Fabrizio-Turdo/heroku#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
