@@ -2,6 +2,12 @@ const express = require('express')
 
 const app = express()
 
-app.listen(8080,()=>{
-    console.log(`escuchando el puerto: 8080.`)
+app.use(express.static(__dirname+'/public'))
+
+app.get('./',(req,res)=>{
+    res.render('index.html')
+})
+
+app.listen(8081,()=>{
+    console.log(`escuchando el puerto: 8081.`)
 })
