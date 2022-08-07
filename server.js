@@ -16,6 +16,6 @@ app.get('/prueba',(req,res)=>{
 const PORT = process.env.PORT || 8081
 
 
-app.listen(8081,()=>{
+app.listen(PORT,()=>{
     console.log(`escuchando el puerto: ${PORT}.`)
 })
